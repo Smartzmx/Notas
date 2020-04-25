@@ -1,0 +1,17 @@
+1 ¿Qué es la terminal? ejecucion de linea de comando
+2 ¿Qué es un comando? archivo con argumentos y modificadores
+3 ¿En qué se diferencian un archivo y un directorio? un archivo guarda info y un directorio los agrupa
+4 ¿Qué significa que una utilidad sea interactiva?
+5 ¿Qué significa que una utilidad sea batch? que se va a ejecutar o es un archivo ejecutable no es una interface grafica
+6 ¿En qué casos es útil trabajar con awk?Datos estructurados
+7 ¿Qué tipos de permisos existen sobre un mismo archivo?lectura, escritura y ejecucion
+8 ¿Para qué se necesita un sistema de manejo de paquetes? para instalara las dependencias
+9 ¿En qué se diferencian tar y gzip? tar combina archivos en uno solo y gzip los comprime
+10 ¿Cuál es la herramienta de búsqueda más versátil? find
+11 ¿Cuál es la diferencia entre CURL y WGET? wget descargar un archivo
+
+12 ¿De qué manera se asegura la comunicación entre computadoras? protocolo encriptado
+13 ¿Para qué sirven las variables de entorno? comunicacion entre procesos
+14 ¿Para qué sirve crear scripts bash? para ejecutar lineas de mando
+15 ¿Cuál de estas utilidades sirve para dejar tareas programadas? crod
+16 ¿Cuáles son los flujos estándar? entrada salida y error

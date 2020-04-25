@@ -1,0 +1,63 @@
+En docker compose, los contenedores se llaman servicios y la relación es siempre 1 a 1 B
+
+Indica la descripción más correcta de qué hace la opción -it en docker run C
+
+La imagen especificada en el FROM de un Dockerfile es siempre una sóla capa en la imagen final. B
+
+Al montar el filesystem de la máquina anfitriona en un contenedor con la línea 
+docker run -v /path/en/host:/path/en/contenedor ubuntu, el efecto logrado es: D
+
+Cuando escribes docker run hello-world y das enter, lo que ocurre es:B
+
+Que un contenedor exponga un puerto es suficiente para que reciba conexiones desde el exterior.B
+
+La parte del filesystem que coincide con las reglas en un .dockerignore:C
+
+No es posible construir imágenes desde docker-compose, es necesario siempre hacer docker build antes de ejecutar un compose file.B
+
+La principal diferencia entre bind mounts y docker volumes es: B
+
+Cuando el proceso principal de un contenedor finaliza, dicho contenedor se detiene A
+
+Los contenedores de todos los servicios creados mediante un mismo docker-compose se pueden ver entre sí siempre 
+que no se especifique una configuración de networking que explícitamente impida hacerlo. A
+
+El comando para ver el estado de todos nuestros contenedores de docker es: D
+
+Las tres grandes áreas de problemáticas en el desarrollo de software profesional son:D
+
+El comando para ver información detallada sobre nuestra instalación de docker es:D
+
+El comando docker run --name prueba hello-world crea un nuevo contenedor… C
+
+Las imágenes de docker son contenedores que están listos para ser ejecutados B
+
+La única forma de obtener la imagen “ubuntu:16.04” es haciendo docker pull ubuntu:16.04  B
+
+Cada instrucción en un Dockerfile, al momento de construir la imagen, genera una nueva capa en la imagen resultante. A
+
+Un contenedor es una máquina virtual más liviana, sin sistema operativo húesped, y que corre sus procesos aislados uno del otro.B
+
+El comando para ver la información detallada de un contenedor de docker es:B
+
+Indica la descripción más correcta de qué hace docker al ejecutar la línea docker run -p 3000:80 nginx B
+
+El requisito para que un contenedor pueda conectarse a una red existente es que la red haya sido creada con la opción --attachable A
+
+El resultado final de buildear un Dockerfile multi-stage es:C
+
+El nombre (repositorio:tag) de una imagen es:B
+
+Al usar el docker client dentro de un contenedor que tiene montado el socket del docker daemon de la máquina anfitriona, todos los contenedores 
+e imagenes que utilicemos existen dentro del contenedor en el que estamos, sin modificar el estado de docker de la máquina anfitriona.B
+
+El comando para crear una imagen usando un Dockerfile es A
+
+La principal diferencia entre un contenedor y una máquina virtual es que las máquinas virtuales no necesitan de un sistema 
+operativo en la máquina anfitriona.B
+
+Si un servicio app tiene el atributo depends_on: db lo que hace compose es: B
+
+El comando para ejecutar un nuevo comando dentro de un contenedor de docker es: C
+
+Indica la descripción más correcta de qué es un contenedor B

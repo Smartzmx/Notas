@@ -1,0 +1,67 @@
+Resumen
+1 En el contexto de metodologías tradicionales, ¿en qué etapa del proceso de desarrollo de software se toman las decisiones de arquitectura? B
+
+2 Y en el contexto de metodologías ágiles, ¿cuándo se toman las decisiones de arquitectura? C
+
+3 ¿Por qué no existe la bala de plata que resuelva las dificultades del desarrollo de software? siempre hay pros y contras C
+
+X4 De las formas en las que podemos trabajar con las dificultades esenciales, ¿cuál es la que más involucra a los arquitectos de software? B / C
+
+5 En el contexto de metodologías ágiles, ¿dónde encontraremos el rol del arquitecto? en el equipo de desarrollo B
+
+6 ¿Cuál de estas definiciones mejor describe la arquitectura de software? A
+
+7 La ley de Conway nos dice que: A
+      Las organizaciones dedicadas al diseño de sistemas [...] están abocadas a producir diseños que son copias de las estructuras de comunicación de dichas organizaciones
+
+8 La empresa GitJam es una organización multinacional con desarrolladores distribuidos en todo el mundo. Su metodología de trabajo es principalmente remoto: 
+No tienen oficina más allá de un pequeño headquarters en San Francisco, donde se reúnen los directivos. Los desarrolladores se comunican por email y disponen de una plataforma de chat. ¿cómo es el diseño de su sistema? C
+
+9 ¿Cuál de los siguientes mejor describe el objetivo de un arquitecto? C
+
+10 ¿Cuál de estas prácticas es esencial para un arquitecto en contexto de metodologías ágiles? D
+ 
+11 En la toma de requerimientos, trabajamos para entender y definir:A
+
+12 El usuario podrá comprar con tarjeta de crédito a través del sistema, ¿qué tipo de requerimiento es? A
+
+13 “El sistema incrementará nuestra capacidad de venta a clientes extranjeros en un 25%.” ¿Qué tipo de requerimiento es?C
+
+14 “Los precios podrán ser actualizados desde un panel de administración.” ¿Qué tipo de requerimiento es? A
+
+15 “El sistema deberá estar disponible para ser presentado en la conferencia de la empresa en abril de este año.” ¿Qué tipo de requerimiento es? D
+
+16 “Toda interacción con el sistema debe ser compatible con usuarios con discapacidad visual.” ¿Qué tipo de requerimiento es?no funcional C
+
+17 ¿Cuál de los siguientes requerimientos funcionales incluye explícitamente un requerimiento no funcional? B
+
+18 “El sistema podría ser atacado a través de una denegación distribuida de servicio.” ¿Qué describe esto? B
+
+19 Luego de identificar los riesgos, ¿qué hace el arquitecto con esta información? C
+
+20 ¿Por qué no podemos resolver todos los riesgos detectados? B
+
+21 En la compañía ACME-Products quieren comenzar un nuevo producto, capaz de analizar datos de compras y comportamiento de compradores en tiempo real. 
+En una conversación sobre requerimientos, el dueño del producto le comunica al arquitecto que deben usar la base de datos GuayabaDB, ya que tienen un acuerdo previo con la compañía que la desarrolla. ¿Qué es esto? C
+
+22 ¿Cuáles de estas puede ser considerada una restricción de diseño? C
+
+23 Un sistema contable permite a sus usuarios el mantener el estado actual de las finanzas de la organización. Además, el departamento de finanzas encargó el desarrollo de un nuevo sistema para tener reportes trimestrales, semestrales y anuales y filtrarlos por tipo de transacción. 
+¿Qué estilo de arquitectura es más pertinente? D
+
+24 Un ecommerce en crecimiento quiere hacer mejor uso de sus recursos para que pueda crecer de forma más eficiente. Luego de un proceso de análisis y medición, encontraron que calcular las promociones para cada producto bloquea la mayor parte del uso de memoria del sistema. 
+¿Cuál de estas propuestas mejor ataca la situación? C
+
+X25 En los frameworks web modernos existe el concepto de middleware, que describe una forma de interceptar el pedido o la respuesta del sistema con componentes desarrollados independientes uno del otro. ¿Qué estilo de arquitectura están implementando? C / A
+
+26 En un centro de investigación, científicos de diferentes áreas utilizan un sistema para, a través de un modelo común de física, química y biología, simular hipótesis de procesos que se podrían haber dado durante la historia de nuestro planeta. 
+Para esto, le deben describir al sistema los hechos que forman parte de su hipótesis y luego consultar el resultado simulado. ¿Qué estilo de arquitectura usará el sistema? B
+
+27 De los siguientes estilos, ¿cuál es que más se usa al desarrollar aplicaciones web?D
+
+28 Se desarrolló un pequeño script en Python para sincronizar los logs de varios servidores. Pasó el tiempo y la cantidad de logs a sincronizar creció, y con ellos las responsabilidades del pequeño script. ¿Qué estilo de arquitectura podemos usar para mejorar esta situación? C
+
+29 Una librería desarrolló un sistema para administrar su venta y existencia de libros. Diez años más tarde, la empresa cuenta con más de 800 librerías distribuidas en 30 países de américa y europa. 
+El sistema de administración de ventas y existencia se sigue usando para cada librería, mientras que muchos otros sistemas se encargan de la gestión global de la compañía, sus métricas por región y su expansión. ¿Qué estilo de arquitectura estamos describiendo? A
+
+30 ¿Cuántos estilos de arquitectura puede haber en un sistema? D

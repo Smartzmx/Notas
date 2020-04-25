@@ -1,0 +1,75 @@
+1 ¿Qué es Node.js? Es un ambiente de ejecución de código JS. Es un proyecto comunitario. Es un cambio de paradigma.
+
+2 De los siguientes calificativos, ¿cuáles aplican a Node.js? Multiplataforma, no bloqueante (asincrono), código libre, expandible
+
+3 ¿Cómo se llama el motor de JavaScript del cual depende Node.js para la ejecución de código? V8.
+
+4 ¿Cuál término se asocia mejor con Node.js? permite desarrollar aplicaciones fuera del ambiente cliente web ( del lado del servidor)
+
+5 Node.js puede ser instalado en una gran diversidad de plataformas en la actualidad como Microsoft y sistemas operativos con base UNIX: si
+
+6 Dentro del esquema de versiones de Node.js, ¿Qué significa que una versión sea LTS? version estable a largo plazo (Long Term Stable version)
+
+7 ¿Cuál de los siguientes comandos presentaría en la terminal la actual versión en ejecución de Node.js? node -v
+
+8 ¿Mediante cúal formato se ejecutaría un fichero script.js usando el utilitario de Node.js? node NOMBREDELARCHIVO
+
+9 ¿Cuál de los siguientes comandos que utilizan NPM inicializa un nuevo proyecto de Node.js? npm init
+
+10 ¿Con qué comando se puede ejecutar un script definido en el archivo package.json? npm run NOMBREDELSCRIPT
+
+11 ¿Cuál es el comportamiento esperado al enviar la ruta de un directorio como parámetro a la función require()? va a buscar un archivo llamado index.js y lo va a importar, y lo que esperamos es poder importar todas las funciones declaradas en ésta ruta, y por lo tanto podemos hacer uso de estas
+
+X 12 Si en el mismo directorio de un fichero llamado a.js existe otro fichero llamado http.js y, desde el fichero a.js se ejecuta la instrucción require(“http”), ¿cuál es el resultado esperado? importar y poder usar las funciones declaradas en el archivo HTTP
+
+13 ¿Bajo qué nombre/propiedad se guarda la información de paquetes añadidos al proyecto en el fichero package.json? Dependencies / Dependencias
+
+14 ¿Cuál de las siguientes instrucciones instala los paquetes del proyecto de Node.js que se utilizarán durante el desarrollo del proyecto? npm install
+
+15 ¿Qué son las operaciones asíncronas? son aquellas funciones que no son de acción bloqueante del hilo del proceso y permite la ejecución de otras instrucciones mientras finaliza. 
+Las implementaciones asincronas se utilizan para delegar tareas intensivas en ciclos de CPU.
+
+16 En contexto de programación en Node.js, una promesa es un objeto de computación definido como estándar para manejar los estados esenciales de operación asíncrona: Si
+
+17 En implementaciones de operaciones asíncronas con promesas, ¿qué propiedad maneja las resoluciones satisfactorias de la operación? Then()
+
+18 El denotado “callback hell” es visto mayoritariamente en implementaciones de ámbito asíncrono que: asegurar la secuencia de resolucion de promesas
+
+19 ¿Cual de las siguientes opciones representa una correcta implementación de una función asíncrona con async/await? (Asuma que value() devolverá una promesa.): async function x () => await ...
+
+X 20 ¿Cuál de las siguientes proposiciones aplica para el operador “async”?
+
+X 21 ¿Qué operación realiza el proceso de eliminación de un fichero en el módulo FileSystem? fs.unlink()
+
+X 22 Dentro del esquema de funciones dentro del módulo FileSystem, ¿Cuál es el tipo de implementación de asincronismo empleado durante su uso? utilizar una callback
+
+X 23 Con el módulo Readline es posible crear aplicaciones interactivas en ambiente de terminal:si
+
+X 24 ¿Qué función del módulo Readline permite realizar una pregunta en la terminal y obtener un dato de retorno? rl.question()
+
+X 25 Mediante el módulo ChildProcess es posible crear subprocesos que ejecuten diferentes tareas/aplicaciones fuera del ámbito de Node.js: Si
+
+X 26 ¿Cuál de las siguientes funciones es la que actúa como fundamento en el funcionamiento del módulo ChildProcess? Esta función la proporciona principalmente 
+la función child_process.spawn ():
+
+27 ¿Qué expresión puede utilizarse en el código fuente para establecer un breakpoint manejable por nuestro debugger? debugger
+
+28 ¿Qué comandos de la consola interactiva DEBUG nos permiten gestionar la vista de expresiones basadas en el contexto de ejecución durante la depuración? watch
+
+X 29 ¿Es factible utilizar el mecanismo de try…catch para capturar errores de ejecución en operaciones asíncronas? (Por ejemplo, envolviendo una promesa o un callback):NO, se utiliza en funciones sincronas
+
+X 30 ¿En cuál categoría se clasificaría un intento de apertura de un archivo inexistente en el sistema de archivos? System errors
+
+31 ¿Qué función es convocada por los EventEmitters para disparar la ocurrencia de un evento? emit()
+
+32 El módulo EventEmitter es uno de los pilares fundamentales de Node.js, ya que sobre este se implementan muchas funciones de sus otros módulos: Si
+
+33 ¿Cuál verbo HTTP es el encargado de representar acciones que modificarán o crearán contenido en el servidor? POST
+
+34 ¿Cuál verbo HTTP nos permite solicitar recursos a un servidor web? GET
+
+35 En contexto de uso del módulo nativo HTTP de Node.js, ¿qué función se utiliza para crear un servidor web básico? http.createserver()
+
+X 36 En contexto de uso del módulo nativo HTTP de Node.js, ¿qué función se utiliza para realizar una petición HTTP POST?http.request()
+
+Node Express es un marco de aplicación web Node.js mínimo y flexible que proporciona un conjunto sólido de funciones para aplicaciones web y móviles.
